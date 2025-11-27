@@ -27,7 +27,7 @@ ADMIN_USER_ID = int(ADMIN_USER_ID)
 if not COBRA_TOKEN or not HELPER_TOKEN:
     raise RuntimeError("COBRA_BOT_TOKEN or HELPER_BOT_TOKEN env vars not set")
 
-ALLOWED_ADMINS = {ADMIN_USER_ID}
+ALLOWED_ADMINS = {6623261004}
 
 # =============================
 # BOT INSTANCES + DISPATCHERS
